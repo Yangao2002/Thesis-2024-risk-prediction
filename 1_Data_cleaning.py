@@ -1392,3 +1392,5 @@ def map_to_5_scale(x):
 
 imputed_result['life_satisfaction_x'] = imputed_result['life_satisfaction'].apply(map_to_5_scale)
 
+# Export the cleaned dataset for further analysis
+imputed_result.to_csv('/Users/xxx/Desktop/LISS data/Cleaned_data.csv')
