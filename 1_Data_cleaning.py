@@ -1377,7 +1377,6 @@ imputed_result['age_65'] = imputed_result['age'] >= 65
 imputed_result['high_debt2'] = (imputed_result['debt_total'] >= 135200) # Median
 imputed_result['no_debt'] = (imputed_result['debt_total'] == 0)
 
-
 # Define life satisfaction to 
 def map_to_5_scale(x):
     if x <= 2:
@@ -1392,3 +1391,4 @@ def map_to_5_scale(x):
         return 5
 
 imputed_result['life_satisfaction_x'] = imputed_result['life_satisfaction'].apply(map_to_5_scale)
+
