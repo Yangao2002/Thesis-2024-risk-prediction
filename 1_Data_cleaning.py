@@ -687,7 +687,7 @@ income_21['year'] = income_21['ci21n_m'].astype(str).str[:4].astype(int)
 
 income_21 = income_21.rename(columns={
     'ci21n005': 'life_satisfaction',
-    'ci21n006':'financial_statistician'
+    'ci21n006':'financial_satisfaction'
 })
 
 income_21_2 = income_21[list_income]
@@ -699,7 +699,7 @@ income_20['year'] = income_20['ci20m_m'].astype(str).str[:4].astype(int)
 
 income_20 = income_20.rename(columns={
     'ci20m005': 'life_satisfaction',
-    'ci20m006':'financial_statistician'
+    'ci20m006':'financial_satisfaction'
 })
 
 income_20_2 = income_20[list_income]
@@ -710,7 +710,7 @@ income_20_2 = income_20[list_income]
 income_19['year'] = income_19['ci19l_m'].astype(str).str[:4].astype(int)
 income_19 = income_19.rename(columns={
     'ci19l005': 'life_satisfaction',
-    'ci19l006':'financial_statistician'
+    'ci19l006':'financial_satisfaction'
 })
 
 income_19_2 = income_19[list_income]
@@ -722,7 +722,7 @@ income_18['year'] = income_18['ci18k_m'].astype(str).str[:4].astype(int)
 
 income_18 = income_18.rename(columns={
     'ci18k005': 'life_satisfaction',
-    'ci18k006':'financial_statistician'
+    'ci18k006':'financial_satisfaction'
 })
 
 income_18_2 = income_18[list_income]
