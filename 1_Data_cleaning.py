@@ -1392,5 +1392,3 @@ def map_to_5_scale(x):
         return 5
 
 imputed_result['life_satisfaction_x'] = imputed_result['life_satisfaction'].apply(map_to_5_scale)
-
-imputed_result.to_csv('/Users/telltalk/Desktop/LISS data/imputed_result_20241027.csv')
